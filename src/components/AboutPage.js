@@ -2,9 +2,7 @@ import React from 'react';
 
 const AboutPage = () => {
     return (
-        <div className="container mt-5">
-            <div className="row justify-content-center">
-                <div className="col-md-6 text-center">
+        <div>
                     <h2>About Me</h2>
                     <p>
                         Currently studying at Pamantasan ng Cabuyao<br />
@@ -16,10 +14,8 @@ const AboutPage = () => {
                         Watch Animes<br />
                         Basic Coding<br />
                     </p>
-                </div>
-            </div>
         </div>
     );
-};
+}
 
 export default AboutPage;

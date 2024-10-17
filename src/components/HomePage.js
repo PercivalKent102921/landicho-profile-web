@@ -1,8 +1,8 @@
 import React from 'react';
 
-function HomePage() {
+const HomePage = () => {
     return (
-        <div className="head">
+        <div>
             <h2>Hi! I'm Percival Kent Landicho</h2>
             <p>
                 My college course is Computer Science <br />
